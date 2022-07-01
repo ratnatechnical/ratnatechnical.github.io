@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500;600&display=swap");
+body {
+  background-color: #212121;
+  text-align: center;
+  font-family: "Finlandica", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.content p {
+  color: #AFB0B2;
+}
+.content .img {
+  background-color: white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.content .img img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.content .img img:hover {
+  transform: scale(1.1);
+}
+.content button {
+  background-color: #FFFFFF;
+  color: #000A15;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.content button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.content body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content .icons span {
+  background-color: #110A15;
+  color: #FFFFFF;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-right: 10px;
+}
+.content .icons {
+  display: flex;
+  justify-content: center;
+}
+.content .icons span:hover {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
