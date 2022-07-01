@@ -8,7 +8,11 @@ $smallTextColor: #AFB0B2;
 body {
     background-color: $backgroundColor;
     text-align: center;
-        font-family: 'Finlandica', sans-serif;
+        font-family: 'Finlandica', sans-serif;height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
 }
 
 *{
@@ -64,12 +68,7 @@ button:hover{
 }
 
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+
 
 .icons span{
     background-color: #110A15;

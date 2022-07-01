@@ -3,6 +3,10 @@ body {
   background-color: #212121;
   text-align: center;
   font-family: "Finlandica", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -48,12 +52,6 @@ body {
 }
 .content button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-.content body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 .content .icons span {
   background-color: #110A15;
